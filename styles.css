@@ -148,4 +148,18 @@ footer{
 
 
 /* 
-    THIS CODE IS A MEDIA QUERY, USED TO 
+    THIS CODE IS A MEDIA QUERY, USED TO ADD STYLES BASED ON HOW WIDE THE SCREEN IS. IT IS PART OF WHAT IS MAKING THE SITE RESPONSIVE
+
+    LEARN MORE ABOUT RESPONSIVE DEVELOPMENT IN GIT414
+*/
+@media screen and (min-width: 450px){
+	nav{
+		width: fit-content;
+	}
+		
+	nav ul{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 0.5rem;
+	}
+}
